@@ -5,9 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-use App\User;
-use App\Comment;
-use App\Category;
+use App\Models\User;
+use App\Models\Comment;
+use App\Models\Category;
 class Post extends Model
 {
     use HasFactory;
