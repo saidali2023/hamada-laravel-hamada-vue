@@ -3,7 +3,8 @@
 @section('content')
 <!-- Page Content -->
   <div class="container intro-container">
-    <global-home></global-home>
+
+     <home></home>
    <div class="row">
 
       <!-- Blog Entries Column -->
@@ -14,8 +15,61 @@
         </h1>
 
         <!-- Blog Post -->
+        <!-- content -->
+        <div class="media simple-post" >
+          <img class="mr-3" src="{{asset('assets/img/p1.jpg') }}" alt="Generic placeholder image">
+          <div class="media-body">
+            <h4 class="mt-0">
+                <a href="#">title</a>
+            </h4>
+             crast sit amet nibth library
+            <ul class="list-inline list-unstyled d-flex post-info">
+                  <li><span><i class="fa fa-user"></i> posted by : <strong class="text-primary">hamada</strong> </span></li>
+                  <li>|</li>
+                  <li><span><i class="fa fa-calendar"></i>2 day , 8 hours</span></li>
+                  <li>|</li>
+                  <span><i class="fa fa-comment"></i> 2 comments</span>
 
+            </ul>
+          </div>
+        </div>
+        <div class="media simple-post" >
+          <img class="mr-3" src="{{asset('assets/img/p1.jpg') }}" alt="Generic placeholder image">
+          <div class="media-body">
+            <h4 class="mt-0">
+                <a href="#">title</a>
+            </h4>
+             crast sit amet nibth library
+            <ul class="list-inline list-unstyled d-flex post-info">
+                  <li><span><i class="fa fa-user"></i> posted by : <strong class="text-primary">hamada</strong> </span></li>
+                  <li>|</li>
+                  <li><span><i class="fa fa-calendar"></i>2 day , 8 hours</span></li>
+                  <li>|</li>
+                  <span><i class="fa fa-comment"></i> 2 comments</span>
 
+            </ul>
+          </div>
+        </div>
+        <div class="media simple-post" >
+          <img class="mr-3" src="{{asset('assets/img/p1.jpg') }}" alt="Generic placeholder image">
+          <div class="media-body">
+            <h4 class="mt-0">
+                <a href="#">title</a>
+            </h4>
+             crast sit amet nibth library
+            <ul class="list-inline list-unstyled d-flex post-info">
+                  <li><span><i class="fa fa-user"></i> posted by : <strong class="text-primary">hamada</strong> </span></li>
+                  <li>|</li>
+                  <li><span><i class="fa fa-calendar"></i>2 day , 8 hours</span></li>
+                  <li>|</li>
+                  <span><i class="fa fa-comment"></i> 2 comments</span>
+
+            </ul>
+          </div>
+        </div>
+        <div class="media simple-post">
+
+        </div>
         <!-- Pagination -->
         <nav aria-label="...">
           <ul class="pagination float-right">
@@ -93,7 +147,7 @@
 
       </div>
 
-    </div> 
+    </div>
     <!-- /.row -->
 
   </div>

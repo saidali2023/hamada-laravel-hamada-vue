@@ -14,7 +14,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    <!-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) -->
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     <!-- start files for template -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -29,12 +29,15 @@
 <body>
     <div id="app">
         <!-- {{--  @include('layouts.header') --}} -->
+
         @include('layouts.header')
+          <!-- <example-component></example-component> -->
+          <global-home></global-home>
         @yield('content')
         @include('layouts.footer')
     </div>
-        
-    <example-component></example-component>
+
+
 
     <!-- start files for template -->
         <script src="{{asset('assets/js/jquery.min.js')}}"></script>
@@ -53,6 +56,6 @@
             })
         </script>
     <!-- end files for template -->
-    
+
 </body>
 </html>
