@@ -32,7 +32,7 @@
 
         @include('layouts.header')
           <!-- <example-component></example-component> -->
-          <global-home></global-home>
+          <!-- <global-home></global-home> -->
         @yield('content')
         @include('layouts.footer')
     </div>
